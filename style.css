@@ -27,7 +27,6 @@ body {
   color: #333;
   margin-bottom: 0.5em;
 }
-
 .main-container {
   background-color:#ffffff;
   padding-top: -14em;
@@ -56,15 +55,14 @@ body {
 }
 
 .sub-container h1 {
-  color: #fdfdf7;
-  font-size: 1.2em;
-  margin: 0; /* Eliminado para evitar márgenes predeterminados */
-  font-weight: bold;
+  background-color: #b0afaf;
+  padding: 2em;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  font-size: 2.2em;
   text-align: center;
-  display: flex;
-  font-family: "Tajawal", sans-serif;
-  font-weight: 500;
 }
+
 .h1 {
   color: #ffffff;
   font-size: 1.2em;
@@ -110,7 +108,7 @@ h2 {
     margin-block-end: 0.3em;
     margin-inline-start: 25px;
     margin-inline-end: 0px;
-    padding-left: 3em;
+    padding-left: 1em;
     font-family: "Tajawal", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -191,7 +189,7 @@ video {
 }
 
 .sub-container h4 {
-  background-color: #9e22d8;
+  background-color: #1270af;
   padding: 2em; /* Utiliza em en lugar de píxeles */
   margin: 0; /* Elimina márgenes predeterminados */
   font-family: 'Arial', sans-serif;
@@ -225,7 +223,7 @@ video {
 }
 .imagen-chica {
   width: 100%; /* La imagen tomará todo el ancho disponible */
-  height: auto; /* Mantiene la relación de aspecto */
+  height: auto; /* Mantiene la relación de aspectoa */
   display: block; /* Elimina el espacio debajo de la imagen */
   max-width: 100%; /* Asegura que la imagen no exceda el 100% del contenedor */
 }
